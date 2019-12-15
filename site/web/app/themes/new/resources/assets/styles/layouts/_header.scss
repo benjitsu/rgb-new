@@ -1,0 +1,55 @@
+.banner {
+  background-color: $dark;
+  min-height: 80px;
+
+  .inner {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  a.brand {
+    color: white;
+    font-style: italic;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+    font-size: 1.3rem;
+    padding: 1rem;
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  #menu-main-menu {
+    margin-bottom: 0;
+
+    .dropdown-item {
+      color: $dark;
+    }
+
+    .dropdown-item.active,
+    .dropdown-item:active {
+      background-color: #eaeaea;
+    }
+
+    li {
+      @extend .nav-item;
+
+      list-style: none;
+      float: left;
+
+      a {
+        @extend .nav-link;
+
+        &:hover {
+          cursor: pointer;
+          color: grey;
+        }
+
+        font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+        color: white;
+      }
+    }
+  }
+}

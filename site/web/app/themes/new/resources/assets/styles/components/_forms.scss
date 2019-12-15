@@ -1,0 +1,49 @@
+/** Search form */
+.search-form {
+  @extend .form-inline;
+}
+
+.search-form label {
+  @extend .form-group;
+
+  font-weight: normal;
+}
+
+.search-form .search-field {
+  @extend .form-control;
+}
+
+.search-form .search-submit {
+  @extend .btn;
+  @extend .btn-secondary;
+}
+
+/** contact page form */
+.contactform {
+  padding-right: 5rem;
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    border: none;
+    background-color: #eaeaea;
+    padding: 8px;
+    margin-bottom: 0.5rem;
+  }
+
+  textarea {
+    border: none;
+    background-color: #eaeaea;
+    padding: 8px;
+    width: 100%;
+  }
+
+  input[type="submit"] {
+    border: none;
+    color: white;
+    background-color: red;
+    padding: 8px 12px;
+    font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+  }
+}

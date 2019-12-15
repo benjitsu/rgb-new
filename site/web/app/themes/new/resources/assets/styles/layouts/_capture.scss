@@ -1,0 +1,51 @@
+#capture {
+  padding-bottom: 2rem;
+}
+
+.captureFloat {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: -70px;
+}
+
+.box {
+  background-color: $blood;
+  padding: 0 3rem;
+
+  .headline {
+    color: white;
+    font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 20px 0;
+    display: inline-block;
+  }
+
+  .cform {
+    input::placeholder {
+      font-size: 14px;
+      color: grey;
+    }
+
+    input {
+      width: 100%;
+      padding: 7px 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="submit"] {
+      border: none;
+    }
+
+    input[type="submit"] {
+      background-color: #880101;
+      cursor: pointer;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      color: white;
+    }
+  }
+}
