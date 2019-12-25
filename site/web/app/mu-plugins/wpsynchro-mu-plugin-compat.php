@@ -5,13 +5,13 @@
  * Description: Optimizing site compatibility and speed for WP Synchro specific operations
  * Author:      WP Synchro
  * Author URI:  wpsynchro.com
- * Version:     1.0.0
+ * Version:     1.0.3
  */
-define('WPSYNCHRO_MU_COMPATIBILITY_VERSION', '1.0.0');
+define('WPSYNCHRO_MU_COMPATIBILITY_VERSION', '1.0.3');
 
 // Check if it is a WP Synchro REST request
 $request_uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-if (strpos($request_uri, "wp-json/wpsynchro") > -1) {
+if (strpos($request_uri, "wp-json/wpsynchro/v") > -1) {
 
     // Figure out the location of plugins
     if (defined('WP_PLUGIN_DIR')) {
@@ -23,10 +23,13 @@ if (strpos($request_uri, "wp-json/wpsynchro") > -1) {
     }
 
     // Load the compatibility class of WP Synchro
-    $compatibility_class_location = $plugins_location . "wpsynchro/includes/compatibility/class-compatibility.php";
+    $compatibility_class_location = $plugins_location . "wpsynchro/includes/Utilities/Compatibility/Compatibility.php";
+    if (!file_exists($compatibility_class_location)) {
+        return;
+    }
     include_once($compatibility_class_location);
-    if (class_exists("\WPSynchro\Compatibility\Compatibility")) {
-        new \WPSynchro\Compatibility\Compatibility;
+    if (class_exists("\WPSynchro\Utilities\Compatibility\Compatibility")) {
+        new \WPSynchro\Utilities\Compatibility\Compatibility;  
     }
 }
 
