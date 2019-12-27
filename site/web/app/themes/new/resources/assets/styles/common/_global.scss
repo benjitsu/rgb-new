@@ -170,10 +170,15 @@ a {
   max-width: 400px;
 }
 
-.instructorImg {
-  width: 100%;
-  height: 400px;
-  background-color: grey;
+.instructor {
+  margin-bottom: 5rem;
+
+  .instructorImg {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+    margin-bottom: 1rem;
+  }
 }
 
 .mt7 {

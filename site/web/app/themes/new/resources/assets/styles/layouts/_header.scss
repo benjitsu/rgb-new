@@ -2,6 +2,25 @@
   background-color: $dark;
   min-height: 80px;
 
+  .navbar-expand-lg {
+    justify-content: space-between;
+
+    .navbar-collapse {
+      flex-grow: 0;
+
+      .nav-link {
+        color: #fff;
+        font-size: 15px;
+      }
+    }
+
+    button {
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
   .inner {
     max-width: 1140px;
     margin: 0 auto;
@@ -15,6 +34,10 @@
     font-size: 1.3rem;
     padding: 1rem;
     font-weight: 500;
+
+    @include media-breakpoint-down(sm) {
+      padding-left: 0;
+    }
 
     &:hover {
       text-decoration: none;
