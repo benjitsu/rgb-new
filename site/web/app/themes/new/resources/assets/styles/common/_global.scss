@@ -138,12 +138,6 @@ a {
     margin-bottom: 4rem;
   }
 
-  .details {
-    font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    font-size: 1.2rem;
-  }
-
   padding: 5rem 0 10rem 0;
 }
 
@@ -187,4 +181,40 @@ a {
 
 .mb7 {
   margin-bottom: 7rem;
+}
+
+ul.address {
+  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  list-style-type: none;
+  margin-bottom: 0;
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  li.map {
+    &::before {
+      font-family: "FontAwesome", sans-serif;
+      margin: 0 15px 0 -30px;
+      content: "\f3c5";
+    }
+  }
+
+  li.email {
+    &::before {
+      font-family: "FontAwesome", sans-serif;
+      margin: 0 15px 0 -30px;
+      content: "\f1fa";
+    }
+  }
+
+  li.phone {
+    &::before {
+      font-family: "FontAwesome", sans-serif;
+      margin: 0 15px 0 -30px;
+      content: "\f095";
+    }
+  }
 }

@@ -83,13 +83,15 @@
                 </div>
                 <div class="col-lg-4 details d-flex justify-content-lg-center align-items-lg-center order-1 order-lg-2 ">
                    <div class="mb-2">
-                        Ralph Gracie Berkeley<br/>
+                       <ul class="address">
+                        <li class="map">Ralph Gracie Berkeley<br/>
                         1500 Ashby Ave<br />
-                        Berkeley, CA 94703<br /><br /><br/>
+                        Berkeley, CA 94703</li>
+    <li>&nbsp;</li>
     
-    
-                        (510) 486-8000<br />
-                        info [at] ralphgracieberkeley.com
+                        <li class="phone">(510) 486-8000</li>
+                        <li class="email">info [at] ralphgracieberkeley.com</li>
+                </ul>
                    </div>
                 </div>
             </div>
