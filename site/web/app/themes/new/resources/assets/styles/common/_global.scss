@@ -7,6 +7,10 @@ a {
   transition: all 0.5s ease;
 }
 
+.bg-light {
+  background-color: $light;
+}
+
 .navbar-toggler {
   border: none;
 }
@@ -181,6 +185,14 @@ a {
 
 .mb7 {
   margin-bottom: 7rem;
+}
+
+.pt7 {
+  padding-top: 7rem;
+}
+
+.pb7 {
+  padding-bottom: 7rem;
 }
 
 ul.address {
