@@ -1,4 +1,4 @@
-<header class="banner reveal">
+<header class="banner">
     <nav class="navbar navbar-expand-lg mx-auto navbar-dark bg-faded">
     <a class="brand" href="{{ home_url('/') }}">{{ get_bloginfo('name', 'display') }}</a>
     <button class="hamburger hamburger--vortex d-lg-none" type="button">

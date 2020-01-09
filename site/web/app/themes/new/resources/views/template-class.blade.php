@@ -21,7 +21,9 @@ echo $slug;
         <div class="col-lg-8">
     @include('partials.content-page')
 </div>
-<div class="col-lg-4 sideBar"></div>
+<div class="col-lg-4 sideBar">
+<div class="marker"></div>
+</div>
 </div>
   @endwhile
   <section id="capture">

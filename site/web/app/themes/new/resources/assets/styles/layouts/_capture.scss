@@ -6,12 +6,12 @@
   position: absolute;
   right: 0;
   left: 0;
-  bottom: -70px;
+  bottom: -90px;
 }
 
 .box {
   background-color: $blood;
-  padding: 0 3rem;
+  padding: 1rem 3rem;
 
   .headline {
     color: white;
@@ -40,12 +40,14 @@
     }
 
     input[type="submit"] {
-      background-color: #880101;
+      background-color: #3a3a3a;
       cursor: pointer;
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
       border-radius: 5px;
       color: white;
+      text-transform: uppercase;
+      font-weight: 600;
     }
   }
 }
