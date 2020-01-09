@@ -69,6 +69,8 @@
 }
 
 .sideBar {
+  font-size: 1rem;
+
   @include media-breakpoint-up(lg) {
     padding-left: 40px;
   }

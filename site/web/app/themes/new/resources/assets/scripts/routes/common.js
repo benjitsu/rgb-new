@@ -53,7 +53,7 @@ export default {
         { day: 'Monday', title: 'All Levels', time: '12:00 - 1:00pm' },
         { day: 'Monday', title: 'All Levels', time: '6:30 - 8:00pm' },
         { day: 'Monday', title: 'Beginners', time: '8:00 - 9:00pm' },
-        { day: 'Tuesday', title: 'All Levels', time: '07:00 - 8:00am' },
+        { day: 'Tuesday', title: 'All Levels', time: '7:00 - 8:00am' },
         { day: 'Tuesday', title: 'Competition Training', time: '12:00 - 1:00pm' },
         { day: 'Tuesday', title: 'Beginners', time: '5:00 - 6:30pm' },
         { day: 'Wednesday', title: 'All Levels', time: '12:00 - 1:00pm' },

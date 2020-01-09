@@ -20,6 +20,9 @@
     font-size: 30px;
     padding: 20px 0;
     display: inline-block;
+    line-height: 1.2;
+    font-style: oblique;
+    text-transform: uppercase;
   }
 
   .cform {
@@ -37,6 +40,10 @@
     input[type="email"],
     input[type="submit"] {
       border: none;
+
+      @include media-breakpoint-down(sm) {
+        margin: 7px 0;
+      }
     }
 
     input[type="submit"] {

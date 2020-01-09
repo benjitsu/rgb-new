@@ -1,6 +1,8 @@
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 a {
@@ -86,6 +88,10 @@ a {
 #homeBjj {
   padding: 5rem 0;
 
+  @include media-breakpoint-down(sm) {
+    padding: 3rem 0;
+  }
+
   h2 {
     font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
     font-weight: 800;
@@ -94,6 +100,11 @@ a {
 
   .inner {
     padding: 8rem 0;
+
+    @include media-breakpoint-down(sm) {
+      padding: 5rem 0;
+    }
+
     background-color: $dark;
     color: white;
     position: relative;
@@ -143,6 +154,10 @@ a {
   }
 
   padding: 5rem 0 10rem 0;
+
+  @include media-breakpoint-down(sm) {
+    padding: 3rem 3rem;
+  }
 }
 
 .minContent {
@@ -181,18 +196,34 @@ a {
 
 .mt7 {
   margin-top: 7rem;
+
+  @include media-breakpoint-down(sm) {
+    margin-top: 3rem;
+  }
 }
 
 .mb7 {
   margin-bottom: 7rem;
+
+  @include media-breakpoint-down(sm) {
+    margin-top: 3rem;
+  }
 }
 
 .pt7 {
   padding-top: 7rem;
+
+  @include media-breakpoint-down(sm) {
+    padding-top: 3rem;
+  }
 }
 
 .pb7 {
   padding-bottom: 7rem;
+
+  @include media-breakpoint-down(sm) {
+    padding-bottom: 3rem;
+  }
 }
 
 ul.address {
