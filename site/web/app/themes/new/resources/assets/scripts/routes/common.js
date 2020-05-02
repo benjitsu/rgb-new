@@ -7,6 +7,7 @@ export default {
       $('.navbar-collapse').toggleClass('show');
     });
 
+    
     var today = '';
 
     // turn date number to day of week

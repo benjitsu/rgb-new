@@ -20,3 +20,12 @@ $hamburger-layer-height: 2px;
 $hamburger-layer-spacing: 4px;
 $hamburger-layer-color: #fff;
 $hamburger-types: (vortex);
+
+@mixin retina($image) {
+  @media (-o-min-device-pixel-ratio: 2.6/2),
+    (-webkit-min-device-pixel-ratio: 1.3),
+    (min-resolution: 1.3dppx) {
+    /* Serving 2x image on Retina display */
+    background-image: url($image);
+  }
+}

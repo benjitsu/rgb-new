@@ -52,20 +52,40 @@ a {
     // box-shadow: 4px 4px rgba(233, 16, 16, 1);
   }
 
-  .program.metcon {
-    background-image: url("../images/tiles/metcon.jpg");
+  .bjj {
+    background-image: url(../images/tiles/bjj@1x.jpg);
+
+    @include retina("../images/tiles/bjj@2x.jpg");
   }
 
-  .program.strength {
-    background-image: url("../images/tiles/strength.jpg");
+  .nogi {
+    background-image: url(../images/tiles/nogi@1x.jpg);
+
+    @include retina("../images/tiles/nogi@2x.jpg");
   }
 
-  .program.functional {
-    background-image: url("../images/tiles/functional.jpg");
+  .judo {
+    background-image: url(../images/tiles/judo@1x.jpg);
+
+    @include retina("../images/tiles/judo@2x.jpg");
   }
 
-  .program.personal {
-    background-image: url("../images/tiles/personal.jpg");
+  .wrestling {
+    background-image: url(../images/tiles/wrestling@1x.jpg);
+
+    @include retina("../images/tiles/wrestling@2x.jpg");
+  }
+
+  .mobility {
+    background-image: url(../images/tiles/mobility@1x.jpg);
+
+    @include retina("../images/tiles/mobility@2x.jpg");
+  }
+
+  .kjj {
+    background-image: url(../images/tiles/kjj@1x.jpg);
+
+    @include retina("../images/tiles/kjj@2x.jpg");
   }
 
   .name {
@@ -185,6 +205,10 @@ a {
 
 .instructor {
   margin-bottom: 5rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   .instructorImg {
     width: 100%;
