@@ -60,12 +60,10 @@
                 <div class="row">
                     <div class="col-lg-7">
                     <h2>Brazilian Jiu-Jitsu is For Everyone</h2>
-                    <p>Brazilian Jiu-Jitsu is martial art that focuses on leverage and control to defeat an opponent, whether in a competition or a self-defense situation. Jiu-Jitu is often referred to a human chess, as it requires the body and mind to work simultaneously in a technical battle against another person. For the body, Jiu-Jitsu is an excellent way to improve physical fitness, balance, and coordination. For the mind, Jiu-Jitsu helps to build confidence, focus, and reduce stress.</p>
-
-<p>Whether you are young or old, currently in shape or not, you can enjoy and benefit of practicing Jiu-Jitsu. Students at Ralph Gracie Berkeley practice Jiu-Jitsu for a variety of reasons. Some attend primarily to improve fitness and learn a new art form, while others train to compete in tournaments and test themselves against others. All students enjoy the camaraderie and community we’ve cultivated at the academy.</p>
-
+                    <p>Brazilian Jiu-Jitsu (BJJ) is a modern martial art that rose to prominence in the early days of the Ultimate Fighting Championship (UFC). It remains one of the most effective forms of self-defense to date and an essential part of Mixed Martial Arts (MMA). A grappling-centric art, the goal of BJJ is to force your opponent into submission with joint locks and chokes. It emphasizes the use of technique and leverage over strength, allowing for a smaller person to defend themselves against a larger attacker. Jiu-Jitsu is often referred to as human chess, as it requires the body and mind to work simultaneously in a technical battle against another person. For the body, Jiu-Jitsu is an excellent way to improve physical fitness, balance, and coordination. For the mind, Jiu-Jitsu helps to build confidence, focus, and reduce stress.</p>
+<p>Whether you are young or old, currently in shape or not, you can enjoy and benefit from practicing Jiu-Jitsu. Students at Ralph Gracie Berkeley train for a variety of reasons, and we have the resources available to meet a diverse range of needs. Some students attend primarily to improve fitness and learn a new art form, while others train to compete in tournaments and test themselves against others. We take pride in the camaraderie and community that exists at our academy.</p>
                     </div>
-                    <div class="col-lg-4 offset-lg-1 mt-md-4 mt-sm-4">
+                    <div class="col-lg-5 pl-lg-5 mt-md-4 mt-sm-4">
                         <div class="sideImg"></div>
                     </div>
                 </div>
