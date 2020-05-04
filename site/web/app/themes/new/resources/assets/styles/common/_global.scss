@@ -191,6 +191,10 @@ a {
     padding: 5px 20px;
     font-size: 3rem;
     margin-left: 15px;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 2rem;
+    }
   }
 }
 

@@ -5,7 +5,7 @@
 
 @section('content')
 
-    <div class="container classContent mb7">
+    <div class="container minContent mb7">
   @while(have_posts()) @php the_post() @endphp
     <div class="row mt-5 mb-5">
     <h1>{!! App::title() !!}</h1>
