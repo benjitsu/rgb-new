@@ -17,6 +17,32 @@ a {
   border: none;
 }
 
+.minContent {
+  h1 {
+    background-color: $blood;
+    color: white;
+    font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 5px 20px;
+    font-size: 3rem;
+    margin-left: 15px;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 2rem;
+    }
+  }
+
+  h2 {
+    font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    margin: 0 0 1rem 0;
+    font-size: 1.6rem;
+    line-height: 100%;
+  }
+}
+
 #homeHero {
   .jumbotron {
     height: calc(100vh - 80px);
@@ -31,6 +57,10 @@ a {
 
 #homePrograms {
   padding: 8rem 0 4rem 0;
+
+  @include media-breakpoint-down(sm) {
+    padding: 15rem 0 4rem 0;
+  }
 
   h2 {
     font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
@@ -176,25 +206,7 @@ a {
   padding: 5rem 0 10rem 0;
 
   @include media-breakpoint-down(sm) {
-    padding: 3rem 3rem;
-  }
-}
-
-.minContent {
-  h1 {
-    background-color: $blood;
-    color: white;
-    font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
-    font-style: italic;
-    padding: 5px 20px;
-    font-size: 3rem;
-    margin-left: 15px;
-
-    @include media-breakpoint-down(sm) {
-      font-size: 2rem;
-    }
+    padding: 3rem 0;
   }
 }
 
