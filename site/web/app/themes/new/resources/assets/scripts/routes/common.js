@@ -1,4 +1,3 @@
-
 export default {
   init() {
     // JavaScript to be fired on all pages
@@ -51,10 +50,20 @@ export default {
     if (document.querySelector('body.brazilian-jiu-jitsu') !== null) {
       sideBar = document.querySelector('.sideBar');
       var bjj = [
+        { day: 'Monday', title: 'In Person', time: '12:00 - 1:00pm' },
         { day: 'Monday', title: 'Online Class', time: '5:00 - 6:00pm' },
-        { day: 'Wednesday', title: 'Online Class', time: '5:00 - 6:00pm' },
-        { day: 'Friday', title: 'Online Class', time: '5:00 - 6:00pm' },
-        { day: 'Saturday', title: 'Online Class', time: '11:30am - 12:30pm' },
+        { day: 'Monday', title: 'In Person', time: '6:00 - 7:30pm' },
+        { day: 'Tuesday', title: 'In Person', time: '7:00 - 8:00am' },
+        { day: 'Tuesday', title: 'In Person', time: '6:00 - 7:30pm' },
+          { day: 'Wednesday', title: 'In Person', time: '12:00 - 1:00pm' },
+          { day: 'Wednesday', title: 'Online Class', time: '5:00 - 6:00pm' },
+        { day: 'Wednesday', title: 'In Person', time: '6:00 - 7:30pm' },
+        { day: 'Thursday', title: 'In Person', time: '7:00 - 8:00am' },
+        { day: 'Thursday', title: 'In Person', time: '6:00 - 7:30pm' },
+          { day: 'Friday', title: 'In Person', time: '12:00 - 1:00pm' },
+          { day: 'Friday', title: 'Online Class', time: '5:00 - 6:00pm' },
+        { day: 'Friday', title: 'In Person', time: '6:00 - 7:30pm' },
+        { day: 'Saturday', title: 'In Person', time: '11:30am - 1:00pm' },
       ]
       sideBar.insertAdjacentHTML('beforeend',showClasses(bjj));
     } else if (document.querySelector('body.judo') !== null) {
@@ -76,6 +85,7 @@ export default {
         { day: 'Monday', title: 'Online Class', time: '4:00 - 5:00pm' },
         { day: 'Wednesday', title: 'Online Class', time: '4:00 - 5:00pm' },
         { day: 'Friday', title: 'Online Class', time: '4:00 - 5:00pm' },
+        { day: 'Saturday', title: 'Online Class', time: '10:00 - 11:00am' },
       ]
       sideBar.insertAdjacentHTML('beforeend',showClasses(kidsBjj));
     } else if (document.querySelector('body.wrestling') !== null) {
@@ -87,9 +97,7 @@ export default {
     } else if (document.querySelector('body.mobility-training') !== null) {
       sideBar = document.querySelector('.sideBar');
       var mobilityTraining = [
-        { day: 'Tuesday', title: 'Online Class', time: '11:00am - 12:00pm' },
-        { day: 'Thursday', title: 'Online Class', time: '11:00am - 12:00pm' },
-        { day: 'Saturday', title: 'Online Class', time: '11:00am - 12:00pm' },
+       
       ]
       sideBar.insertAdjacentHTML('beforeend',showClasses(mobilityTraining));
     }
