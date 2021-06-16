@@ -21,19 +21,19 @@
                     <div class="name">Brazilian Jiu-Jitsu</div> 
                     </a>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <!-- <div class="col-xl-3 col-lg-6">
                 <a href="/no-gi-grappling">
                     <div class="program nogi"></div>
                     <div class="name">No Gi Grappling</div>
                     </a>
-                </div>
+                </div> -->
                 <div class="col-lg-4 col-md-6">
                 <a href="/judo">
                     <div class="program judo"></div>
                     <div class="name">Judo</div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <!-- <div class="col-lg-4 col-md-6">
                 <a href="/wrestling">
                     <div class="program wrestling"></div>
                     <div class="name">Wrestling</div>
@@ -44,7 +44,7 @@
                     <div class="program mobility"></div>
                     <div class="name">Mobility Training</div>
                     </a>
-                </div>
+                </div> -->
                 <div class="col-lg-4 col-md-6">
                 <a href="/kids-jiu-jitsu">
                     <div class="program kjj"></div>
@@ -52,6 +52,7 @@
                     </a>
                 </div>
             </div>
+            
         </div>
     </section>
     <section id="homeBjj" class="reveal">
