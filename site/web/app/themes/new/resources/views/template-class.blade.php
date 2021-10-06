@@ -18,12 +18,12 @@ echo $slug;
     <h1 class="position-absolute">{!! App::title() !!}</h1>
     </div>
     <div class="row description">
-        <div class="col-lg-8">
+        <div class="col-lg-10">
     @include('partials.content-page')
 </div>
-<div class="col-lg-4 sideBar">
+<!-- <div class="col-lg-4 sideBar">
 <div class="marker"></div>
-</div>
+</div> -->
 </div>
   @endwhile
   <section id="capture">
