@@ -3,14 +3,13 @@
 }
 
 .captureFloat {
-  position: absolute;
+  position: relative;
   right: 0;
   left: 0;
-  bottom: -90px;
+  top: -90px;
 
   @include media-breakpoint-down(sm) {
-    bottom: 0;
-    top: 85%;
+    top: 0;
   }
 }
 

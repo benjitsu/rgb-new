@@ -47,21 +47,26 @@ a {
 
 #homeHero {
   .jumbotron {
-    height: calc(100vh - 80px);
-    max-height: 1400px;
+    height: 70vh;
+    min-height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("../images/homebg-3.jpg");
-    // box-shadow: 0 3000px rgba(0, 0, 0, 0.5) inset;
+
+    @include media-breakpoint-down(sm) {
+      height: 60vh;
+      margin-bottom: 0;
+      min-height: auto;
+    }
   }
 }
 
 #homePrograms {
-  padding: 8rem 0 4rem 0;
+  padding: 1rem 0 4rem 0;
 
   @include media-breakpoint-down(sm) {
-    padding: 15rem 0 4rem 0;
+    padding: 6rem 0 4rem 0;
   }
 
   h2 {
