@@ -1,7 +1,7 @@
 <div class="container-fluid messageBar">
   <div class="row d-flex">
 <div class="col mx-auto text-center py-2">
-  We are open for in-person classes! <br class="d-block d-md-none" />Check out our <a href="/schedule">full-schedule</a>.
+  We are open for in-person classes! <br class="d-block d-md-none" />Check out our <a href="/schedule">full schedule</a>.
 </div>
   </div>
 </div>
